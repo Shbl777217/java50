@@ -78,10 +78,10 @@ margin-left: -10px;
 var l_itv7=setInterval(function(){
     if(myid!=null){
         clearInterval(l_itv7);
-        $("#users .uzr:contains('موسوس')").addClass('mms5');
+        $("#users .uzr:contains('مزاجي')").addClass('mms5');
         $("#users .uzr.mms5 .fitimg.u-pic").append('<img class="My_star59" title="اطاري" src="https://up6.cc/2022/12/167209273598672.png">');
      
-        $("div#users .uzr:contains('موسوس')").click(function(){
+        $("div#users .uzr:contains('مزاجي')").click(function(){
         $("#movon").show();
         
         $('#movon').addClass('mms5');
