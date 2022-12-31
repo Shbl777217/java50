@@ -1,13 +1,5 @@
 
 
-
-
-
-
-
-
-
-
 $("style").last().append(`
 
 
@@ -83,13 +75,13 @@ margin-left: -10px;
 
 `);
 
-var l_itv5=setInterval(function(){
+var l_itv6=setInterval(function(){
     if(myid!=null){
-        clearInterval(l_itv5);
-        $("#users .uzr:contains('ware')").addClass('mms');
+        clearInterval(l_itv6);
+        $("#users .uzr:contains('موسوس.')").addClass('mms');
         $("#users .uzr.mms .fitimg.u-pic").append('<img class="My_star33" title="اطاري" src="https://up6.cc/2022/12/167209273598672.png">');
      
-        $("div#users .uzr:contains('ware')").click(function(){
+        $("div#users .uzr:contains('موسوس.')").click(function(){
         $("#movon").show();
         
         $('#movon').addClass('mms');
@@ -109,5 +101,3 @@ var l_itv5=setInterval(function(){
 
 
 
-
-  
