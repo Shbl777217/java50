@@ -112,6 +112,8 @@ var l_itv7=setInterval(function(){
 
 
 
+
+
 $("style").last().append(`
 
 
@@ -219,8 +221,6 @@ var l_itv9=setInterval(function(){
 
 
 
-
-20000);
 
 
 
