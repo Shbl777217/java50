@@ -81,19 +81,7 @@ var l_itv7=setInterval(function(){
         $("#users .uzr:contains('.مزاج+ي')").addClass('mms5');
         $("#users .uzr.mms5 .fitimg.u-pic").append('<img class="My_star59" title="اطاري" src="https://up6.cc/2022/12/167209273598672.png">');
      
-        $("div#users .uzr:contains('.مزاج+ي')").click(function(){
-        $("#movon").show();
-        
-        $('#movon').addClass('mms5');
-      
-        
-    
-          
-		  
-        
-        
 
-});
     }
 }, 20000);
 
