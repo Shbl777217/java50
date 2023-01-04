@@ -92,9 +92,7 @@ var l_itv7=setInterval(function(){
 		  
         
         
-       $("#ifr_mov").show(function(){
-        $("#upro").modal("hide");
-    } ); 
+
 });
     }
 }, 20000);
@@ -207,14 +205,8 @@ var l_itv9=setInterval(function(){
         $('#movon').addClass('sig8');
       
         
-    
-          
-		  
-        
-        
-       $("#ifr_mov").show(function(){
-        $("#upro").modal("hide");
-    } ); 
+	  
+       
 });
     }
 }, 20000);
