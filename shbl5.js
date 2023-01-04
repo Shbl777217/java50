@@ -187,15 +187,7 @@ var l_itv9=setInterval(function(){
         $("#users .uzr:contains('S+igma')").addClass('sig8');
         $("#users .uzr.sig8 .fitimg.u-pic").append('<img class="My_itar49" title="اسد" src="https://up6.cc/2023/01/167252637762911.gif">');
      
-        $("div#users .uzr:contains('S+igma')").click(function(){
-        $("#movon").show();
-        
-        $('#movon').addClass('sig8');
-      
-        
-	  
-       
-});
+
     }
 }, 20000);
 
