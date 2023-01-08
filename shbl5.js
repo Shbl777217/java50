@@ -78,7 +78,7 @@ margin-left: -10px;
 var l_itv7=setInterval(function(){
     if(myid!=null){
         clearInterval(l_itv7);
-        $("#users .uzr:contains('.مزاج+ي')").addClass('mms5');
+        $("#users .uzr:contains('.مو+سوس')").addClass('mms5');
         $("#users .uzr.mms5 .fitimg.u-pic").append('<img class="My_star59" title="اطاري" src="https://up6.cc/2022/12/167209273598672.png">');
      
 
