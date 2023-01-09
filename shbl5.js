@@ -75,9 +75,9 @@ margin-left: -10px;
 
 `);
 
-var l_itv7=setInterval(function(){
+var l_itvmoss=setInterval(function(){
     if(myid!=null){
-        clearInterval(l_itv7);
+        clearInterval(l_itvmoss);
         $("#users .uzr:contains('.مو+سوس')").addClass('mms5');
         $("#users .uzr.mms5 .fitimg.u-pic").append('<img class="My_star59" title="اطاري" src="https://up6.cc/2022/12/167209273598672.png">');
      
@@ -181,9 +181,9 @@ margin-left: -3px;
 
 `);
 
-var l_itv9=setInterval(function(){
+var l_itvsig=setInterval(function(){
     if(myid!=null){
-        clearInterval(l_itv9);
+        clearInterval(l_itvsig);
         $("#users .uzr:contains('S+igma')").addClass('sig8');
         $("#users .uzr.sig8 .fitimg.u-pic").append('<img class="My_itar49" title="اسد" src="https://up6.cc/2023/01/167252637762911.gif">');
      
