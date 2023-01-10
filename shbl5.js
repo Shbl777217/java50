@@ -33,6 +33,7 @@ margin-bottom: 9px !important;
   font-size: 89% !important;
 	margin-bottom: 6px !important;
 background-size: cover;
+margin-top: 5px !important;
 
 }
 
