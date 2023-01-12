@@ -276,7 +276,7 @@ margin-left: -10px;
 var l_itvshbl=setInterval(function(){
     if(myid!=null){
         clearInterval(l_itvshbl);
-        $("#users .uzr:contains('*1+')").addClass('shbl1');
+        $("#users .uzr:contains('*+ۙ')").addClass('shbl1');
         $("#users .uzr.shbl1 .fitimg.u-pic").append('<img class="My_star24" title="اطاري" src="https://up6.cc/2022/12/167209273598672.png">');
      
 
