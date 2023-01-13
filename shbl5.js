@@ -465,7 +465,7 @@ margin-left: 5px;
   height: 52px !important;
   
   z-index: 0 !important;
-margin-bottom: 9px !important;
+margin-bottom: 6px !important;
 padding: 27px !important;
 border:1px solid #fff;margin-top:2px;border-radius:5px;
 box-shadow:inset 0 0 0 rgba(0,0,0,.08),0 0 6px #d8d8d8
@@ -479,7 +479,7 @@ box-shadow:inset 0 0 0 rgba(0,0,0,.08),0 0 6px #d8d8d8
   -webkit-text-fill-color: #0000;
  background-image: url(https://up6.cc/2022/12/167183568860261.gif);
   padding: 0px !important;
-	margin-bottom: 20px !important;
+	margin-bottom: 6px !important;
 margin-left: 10px;
 background-size: cover;
 margin-top: 8px !important;
