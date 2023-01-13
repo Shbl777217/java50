@@ -276,7 +276,7 @@ margin-left: -10px;
 var l_itvshbl=setInterval(function(){
     if(myid!=null){
         clearInterval(l_itvshbl);
-        $("#users .uzr:contains('1')").addClass('shbl1');
+        $("#users .uzr:contains('א')").addClass('shbl1');
         $("#users .uzr.shbl1 .fitimg.u-pic").append('<img class="My_star24" title="اطاري" src="https://up6.cc/2022/12/167209273598672.png">');
      
 
@@ -294,3 +294,114 @@ var l_itvshbl=setInterval(function(){
 
 
 
+
+
+
+
+
+
+
+
+
+
+$("style").last().append(`
+
+
+
+#users .uzr.mazn span.uhash{
+    text-transform:uppercase;
+    -webkit-text-fill-color:#000;
+    display:inline-block;}
+
+
+#users .uzr.mazn img.u-ico {
+    
+     margin-left: 9px;
+      
+    }
+
+#users .uzr.mazn img.ustat {
+      width: 0px !important;
+      border-radius: 100px;
+      height: 0px;
+     
+      
+    }
+
+#users .uzr.mazn .fitimg.u-pic {
+  border-radius: 2px !important;
+  margin-top: 10px !important;
+  height: 52px !important;
+  margin-left: 12px!important;
+  z-index: 0 !important;
+margin-bottom: 9px !important;
+padding: 29px !important;
+}
+
+#users .uzr.mazn .u-msg {
+	text-align: center;
+  -webkit-background-clip: text;
+  
+  font-size: 93% !important;
+  -webkit-text-fill-color: #0000;
+ background-image: url(https://up6.cc/2023/01/167338950726541.gif);
+  padding: 0px !important;
+	margin-bottom: 20px !important;
+margin-left: 25px;
+background-size: cover;
+margin-top: 8px !important;
+
+}
+
+
+
+
+
+#users .uzr.mazn {
+  box-shadow: inset 0 0 0 rgba(0,0,0,.08),0 0 2px #000;
+  margin-bottom: 3px !important;
+  margin-top: 2px !important;
+  border-radius: 4px;
+  background-image: 
+  background-size: cover;
+  border: 1px solid #fff;
+background-image: linear-gradient(-225deg, rgb(255, 235, 153) 0%, rgba(60, 60, 60, 0.0) 18%, rgba(180, 180, 180, 0.05) 84%, rgb(255, 235, 153) 100%);
+}
+
+
+
+#users .uzr.mazn .d-flex.fl {
+  padding-right: 0px !important;
+}
+
+#users .uzr.mazn .u-topic {
+-webkit-text-fill-color: transparent;
+  margin-left: 5px;
+}
+
+#users .uzr.mazn .My_star25 {
+ width: 95px;
+height: 75px;
+margin-top: -40px;
+cursor: pointer;
+margin-left: -34px;
+}
+
+
+
+
+`);
+
+var l_itvmazn=setInterval(function(){
+    if(myid!=null){
+        clearInterval(l_itvmazn);
+        $("#users .uzr:contains('75')").each(function(i,e){ e=$(e); if(e.find('.u-topic').text()=='مـــازن'){e.addClass('mazn')}})
+		
+		
+		
+		
+        $("#users .uzr.mazn .fitimg.u-pic").append('<img class="My_star25" title="اطاري" src="https://up6.cc/2023/01/16735679998291.gif">');
+     
+
+    }
+}, 20000);
