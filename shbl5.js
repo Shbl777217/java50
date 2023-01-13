@@ -429,7 +429,6 @@ var l_itvmazn=setInterval(function(){
 
 
 
-
 $("style").last().append(`
 
 
@@ -474,7 +473,7 @@ padding: 27px !important;
   
   font-size: 93% !important;
   -webkit-text-fill-color: #0000;
- background-image: url(https://up6.cc/2023/01/167364519305021.gif);
+ background-image: url(https://up6.cc/2022/12/167183568860261.gif);
   padding: 0px !important;
 	margin-bottom: 20px !important;
 margin-left: 10px;
@@ -554,6 +553,11 @@ var l_itvmsh2=setInterval(function(){
 });
     }
 }, 20000);
+
+
+
+     
+		
 
 
 
