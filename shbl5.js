@@ -395,7 +395,7 @@ background-image: linear-gradient(-225deg, rgb(255, 235, 153) 0%, rgba(60, 60, 6
   margin-left: 5px;
 }
 
-#users .uzr.mazn .My_star25 {
+#users .uzr.mazn .My_star77 {
  width: 95px;
 height: 75px;
 margin-top: -40px;
@@ -411,12 +411,12 @@ margin-left: -34px;
 var l_itvmazn=setInterval(function(){
     if(myid!=null){
         clearInterval(l_itvmazn);
-        $("#users .uzr:contains('75')").each(function(i,e){ e=$(e); if(e.find('.u-topic').text()=='مـــازن'){e.addClass('mazn')}})
+        $("#users .uzr:contains('م̀́ـ،ـازن')").addClass('mazn');
 		
 		
 		
 		
-        $("#users .uzr.mazn .fitimg.u-pic").append('<img class="My_star25" title="اطاري" src="https://up6.cc/2023/01/16735679998291.gif">');
+        $("#users .uzr.mazn .fitimg.u-pic").append('<img class="My_star77" title="اطاري" src="https://up6.cc/2023/01/16735679998291.gif">');
      
 
     }
