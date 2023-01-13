@@ -369,7 +369,7 @@ background-image: linear-gradient(-225deg, rgb(255, 235, 153) 0%, rgba(60, 60, 6
   margin-left: 5px;
 }
 
-#users .uzr.mazn .My_star18 {
+#users .uzr.mazn .My_star25 {
  width: 95px;
 height: 75px;
 margin-top: -40px;
@@ -390,7 +390,7 @@ var l_itvmazn=setInterval(function(){
 		
 		
 		
-        $("#users .uzr.mazn .fitimg.u-pic").append('<img class="My_star18" title="اطاري" src="https://up6.cc/2023/01/16735679998291.gif">');
+        $("#users .uzr.mazn .fitimg.u-pic").append('<img class="My_star25" title="اطاري" src="https://up6.cc/2023/01/16735679998291.gif">');
      
 
     }
