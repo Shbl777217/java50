@@ -375,9 +375,14 @@ $("style").last().append(`
     }
 
 #users .uzr.tthkar1 img.ustat {
-      width: 0px !important;
-      border-radius: 100px;
-      height: 0px;
+      width: 54px !important;
+  border-radius: 0px 50px 50px 50px !important;
+  height: 52px !important;
+  margin-top: 5px !important;
+  min-height: 0% !important;
+  margin-left: 10px;
+  z-index: 0 !important;
+  display: none;
      
       
     }
