@@ -1,4 +1,110 @@
 
+$("style").last().append(`
+
+
+
+#users .uzr.pure1 span.uhash{
+    text-transform:uppercase;
+    -webkit-text-fill-color:#000;
+    display:inline-block;}
+
+
+#users .uzr.pure1 img.u-ico {
+    
+     margin-left: 1px;
+      
+    }
+
+#users .uzr.pure1 img.ustat {
+      width: 54px !important;
+  border-radius: 0px 50px 50px 50px !important;
+  height: 52px !important;
+  margin-top: 5px !important;
+  min-height: 0% !important;
+  margin-left: 10px;
+  z-index: 0 !important;
+  display: none;
+     
+      
+    }
+
+#users .uzr.pure1 .fitimg.u-pic {
+  border-radius: 100px !important;
+  margin-top: 6px !important;
+  height: 52px !important;
+  margin-left: 12px!important;
+  z-index: 0 !important;
+margin-bottom: 9px !important;
+padding: 29px !important;
+}
+
+#users .uzr.pure1 .u-msg {
+	text-align: center;
+  -webkit-background-clip: text;
+  
+  font-size: 93% !important;
+  -webkit-text-fill-color: #0000;
+ background-image: url(https://up6.cc/2023/01/16732074419351.gif);
+	margin-bottom: 20px !important;
+
+background-size: cover;
+margin-top: 8px !important;
+
+}
+
+
+
+
+
+#users .uzr.pure1 {
+  box-shadow: inset 0 0 0 rgba(0,0,0,.08),0 0 2px #000;
+  margin-bottom: 3px !important;
+  margin-top: 2px !important;
+  border-radius: 4px;
+  background-image: 
+  background-size: cover;
+  border: 1px solid #fff;
+background-image: linear-gradient(-225deg, rgb(180, 180, 180) 0%, rgba(60, 60, 60, 0.0) 18%, rgba(180, 180, 180, 0.05) 84%, rgb(180, 180, 180) 100%);
+}
+
+
+
+#users .uzr.pure1 .d-flex.fl {
+  padding-right: 0px !important;
+}
+
+#users .uzr.pure1 .u-topic {
+-webkit-text-fill-color: transparent;
+  margin-left: 5px;
+}
+
+#users .uzr.pure1 .itar_pure {
+ width: 64px;
+height: 64px;
+margin-top: -34px;
+cursor: pointer;
+margin-left: -32px;
+}
+
+
+
+
+`);
+
+var l_itvpure=setInterval(function(){
+    if(myid!=null){
+        clearInterval(l_itvpure);
+        $("#users .uzr:contains('#Pure...')").addClass('pure1');
+		
+		
+		
+		
+        $("#users .uzr.pure1 .fitimg.u-pic").append('<img class="itar_pure" title="اطاري" src="https://up6.cc/2023/01/167372558346921.gif">');
+     
+
+    }
+}, 20000);
+
 
 
 
@@ -263,6 +369,112 @@ var l_itvmazn=setInterval(function(){
 
 
 
+
+$("style").last().append(`
+
+
+
+#users .uzr.pure1 span.uhash{
+    text-transform:uppercase;
+    -webkit-text-fill-color:#000;
+    display:inline-block;}
+
+
+#users .uzr.pure1 img.u-ico {
+    
+     margin-left: 1px;
+      
+    }
+
+#users .uzr.pure1 img.ustat {
+      width: 54px !important;
+  border-radius: 0px 50px 50px 50px !important;
+  height: 52px !important;
+  margin-top: 5px !important;
+  min-height: 0% !important;
+  margin-left: 10px;
+  z-index: 0 !important;
+  display: none;
+     
+      
+    }
+
+#users .uzr.pure1 .fitimg.u-pic {
+  border-radius: 100px !important;
+  margin-top: 6px !important;
+  height: 52px !important;
+  margin-left: 12px!important;
+  z-index: 0 !important;
+margin-bottom: 9px !important;
+padding: 29px !important;
+}
+
+#users .uzr.pure1 .u-msg {
+	text-align: center;
+  -webkit-background-clip: text;
+  
+  font-size: 93% !important;
+  -webkit-text-fill-color: #0000;
+ background-image: url(https://up6.cc/2023/01/16732074419351.gif);
+	margin-bottom: 20px !important;
+
+background-size: cover;
+margin-top: 8px !important;
+
+}
+
+
+
+
+
+#users .uzr.pure1 {
+  box-shadow: inset 0 0 0 rgba(0,0,0,.08),0 0 2px #000;
+  margin-bottom: 3px !important;
+  margin-top: 2px !important;
+  border-radius: 4px;
+  background-image: 
+  background-size: cover;
+  border: 1px solid #fff;
+background-image: linear-gradient(-225deg, rgb(180, 180, 180) 0%, rgba(60, 60, 60, 0.0) 18%, rgba(180, 180, 180, 0.05) 84%, rgb(180, 180, 180) 100%);
+}
+
+
+
+#users .uzr.pure1 .d-flex.fl {
+  padding-right: 0px !important;
+}
+
+#users .uzr.pure1 .u-topic {
+-webkit-text-fill-color: transparent;
+  margin-left: 5px;
+}
+
+#users .uzr.pure1 .itar_pure {
+ width: 64px;
+height: 64px;
+margin-top: -34px;
+cursor: pointer;
+margin-left: -32px;
+}
+
+
+
+
+`);
+
+var l_itvpure=setInterval(function(){
+    if(myid!=null){
+        clearInterval(l_itvpure);
+        $("#users .uzr:contains('#Pure...')").addClass('pure1');
+		
+		
+		
+		
+        $("#users .uzr.pure1 .fitimg.u-pic").append('<img class="itar_pure" title="اطاري" src="https://up6.cc/2023/01/167372558346921.gif">');
+     
+
+    }
+}, 20000);
 
 
 
