@@ -684,7 +684,6 @@ box-shadow:inset 0 0 0 rgba(0,0,0,.08),0 0 2px #2700ff}
 
 
 
-
 $("style").last().append(`
 
 
@@ -775,7 +774,7 @@ margin-left: -40px;
 var l_itvsid=setInterval(function(){
     if(myid!=null){
         clearInterval(l_itvsid);
-       $("#users .uzr:contains('YBYB')").addClass('sida1');
+       $("#users .uzr:contains('يب يب!')").addClass('sida1');
 		
 		
 		
@@ -785,10 +784,4 @@ var l_itvsid=setInterval(function(){
 
     }
 }, 20000);
-
-
-
-
-
-  
 
