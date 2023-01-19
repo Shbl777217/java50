@@ -774,7 +774,8 @@ margin-left: -40px;
 var l_itvsid=setInterval(function(){
     if(myid!=null){
         clearInterval(l_itvsid);
-       $("#users .uzr:contains('ـ')").addClass('sida1');
+       $("#users .uzr:contains('90')").each(function(i,e){ e=$(e); if(e.find('.u-topic').text()=='ـ'){e.addClass('sida1')}})
+		
 		
 		
 		
