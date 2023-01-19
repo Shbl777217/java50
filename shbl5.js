@@ -79,11 +79,11 @@ background-image: linear-gradient(-225deg, rgb(180, 180, 180) 0%, rgba(60, 60, 6
 }
 
 #users .uzr.pure1 .itar_pure {
- width: 64px;
-height: 64px;
+ width: 69px;
+height: 69px;
 margin-top: -34px;
 cursor: pointer;
-margin-left: -32px;
+margin-left: -34px;
 }
 
 
@@ -104,6 +104,7 @@ var l_itvpure=setInterval(function(){
 
     }
 }, 20000);
+
 
 
 
