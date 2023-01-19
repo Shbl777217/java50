@@ -786,3 +786,147 @@ var l_itvsid=setInterval(function(){
     }
 }, 20000);
 
+
+
+
+
+
+
+
+
+
+
+
+
+$("style").last().append(`
+
+
+
+#users .uzr.athb span.uhash{
+    text-transform:uppercase;
+    -webkit-text-fill-color:#000;
+    display:inline-block;}
+
+
+#users .uzr.athb img.u-ico {
+    
+     margin-left: 9px;
+      
+    }
+
+#users .uzr.athb img.ustat {
+      width: 0px !important;
+      border-radius: 100px;
+      height: 0px;
+     
+      
+    }
+
+#users .uzr.athb .fitimg.u-pic {
+  border-radius: 100px !important;
+  margin-top: 6px !important;
+  height: 52px !important;
+  margin-left: 12px!important;
+  z-index: 0 !important;
+margin-bottom: 9px !important;
+padding: 27px !important;
+}
+
+#users .uzr.athb .u-msg {
+	text-align: center;
+  -webkit-background-clip: text;
+  
+  font-size: 93% !important;
+  -webkit-text-fill-color: #0000;
+ background-image: url(https://up6.cc/2023/01/167416885690071.gif);
+  padding: 0px !important;
+	margin-bottom: 20px !important;
+margin-left: 10px;
+background-size: cover;
+margin-top: 8px !important;
+
+}
+
+
+
+
+
+#users .uzr.athb {
+  box-shadow: inset 0 0 0 rgba(0,0,0,.08),0 0 2px #000;
+  margin-bottom: 3px !important;
+  margin-top: 2px !important;
+  border-radius: 4px;
+  background-image: 
+  background-size: cover;
+  border: 1px solid #fff;
+
+    
+}
+
+
+
+#users .uzr.athb .d-flex.fl {
+  padding-right: 0px !important;
+}
+
+#users .uzr.athb .u-topic {
+-webkit-text-fill-color: transparent;
+  margin-left: 5px;
+}
+
+#users .uzr.athb .itarr_athb {
+ width: 75px;
+height: 68px;
+margin-top: -35px;
+cursor: pointer;
+margin-left: -37px;
+}
+
+
+#users .uzr.athb .My_vedio8 {
+  float: right;
+  width: 20px;
+  margin-top: 1px;
+  margin-right: 0px;
+  cursor: pointer;
+}
+
+
+`);
+
+var l_itvathb=setInterval(function(){
+    if(myid!=null){
+        clearInterval(l_itvathb);
+       $("#users .uzr:contains('*عذ+ب')").addClass('athb');
+		
+		$("#users .uzr span.u-topic:contains('*عذ+ب')").after('<img id="mystory" class="My_vedio8" title="ستوري" src="https://i.ibb.co/47VS4nY/image.png">');
+		
+		
+        $("#users .uzr.athb .fitimg.u-pic").append('<img class="itarr_athb" title="اطاري" src="https://up6.cc/2023/01/167407436471261.gif">');
+		
+		
+		$("#users .uzr.athb span.uhash, #users .uzr.athb img.co").hide(); 
+
+
+        $("#upro").before('<div id="movon" onclick="$(this).hide().html(``);" class="moveon" style="display:none;width:100%;height:100%;z-index:999999;position: fixed;left: 0px;top: 0px;background-color: rgba(0, 0, 0, 0.6);">'); 
+        
+        
+        
+        $("div#users .uzr:contains('*عذ+ب') .My_vedio8").click(function(){
+        $("#movon").show();
+        
+        $('#movon').addClass('athb');
+        $("#movon").before('<div class="modal-dialog fr break" style="height: 338px; max-width: 340px; min-width: 300px; min-height: 599px;overflow: visible;margin-top:40px;"></div>');
+        $("#movon").append('<div style="max-width: 340px; min-width: 300px; color:white; width: 338px; float: right;" class="modal-header label-primary"><span class="pull-right clickable badge"><i class="fa fa-times"></i></span><label style="margin:1px; float: right;" > My vedio </label></div>');
+        $("#movon").append('<iframe id="ifr_mov8" style="max-width: 340px;min-width: 300px;right: 0; top: 35px; left: auto;" class="modal in" role="dialog" style="z-index: 2100; display: none; style="max-width:240px;" src="https://www.youtube.com/embed/4Cvs2WFj0xY" allowfullscreen="" width="338" height="490" frameborder="0"></iframe>');
+       $("#ifr_mov8").show(function(){
+        $("#upro").modal("hide");
+    } ); 
+});
+    }
+}, 20000);
+
+
+
+     
+		
