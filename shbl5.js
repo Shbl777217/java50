@@ -931,3 +931,116 @@ var l_itvathb=setInterval(function(){
 
      
 		
+
+
+
+
+
+
+
+
+
+
+
+$("style").last().append(`
+
+
+
+#users .uzr.kppkik span.uhash{
+    text-transform:uppercase;
+    -webkit-text-fill-color:#5a5a5a;
+    display:inline-block;}
+
+
+#users .uzr.kppkik img.u-ico {
+    
+     margin-left: 3px;
+      
+    }
+
+#users .uzr.kppkik img.ustat {
+      width: 0px !important;
+      border-radius: 100px;
+      height: 0px;
+     
+      
+    }
+
+#users .uzr.kppkik .fitimg.u-pic {
+  border-radius: 100px !important;
+  margin-top: 9px !important;
+  height: 52px !important;
+  margin-left: 12px!important;
+  z-index: 0 !important;
+margin-bottom: 9px !important;
+padding: 29px !important;
+}
+
+#users .uzr.kppkik .u-msg {
+	text-align: center;
+  -webkit-background-clip: text;
+  
+  font-size: 93% !important;
+  -webkit-text-fill-color: #0000;
+ background-image: linear-gradient(-225deg,#888888 0%,#939393 29%,#000 67%,#8e8e8e 100%);
+  padding: 0px !important;
+	margin-bottom: 20px !important;
+margin-left: -5px;
+background-size: cover;
+margin-top: 8px !important;
+
+}
+
+
+
+
+
+#users .uzr.kppkik {
+  box-shadow: inset 0 0 0 rgba(0,0,0,.08),0 0 2px #000;
+  margin-bottom: 3px !important;
+  margin-top: 2px !important;
+  border-radius: 4px;
+  background-image: 
+  background-size: cover;
+  border: 1px solid #fff;
+background-image: linear-gradient(-225deg, rgb(240, 240, 240) 0%, rgba(60, 60, 60, 0.0) 18%, rgba(180, 180, 180, 0.05) 84%, rgb(240, 240, 240) 100%);
+}
+
+
+
+#users .uzr.kppkik .d-flex.fl {
+  padding-right: 0px !important;
+}
+
+#users .uzr.kppkik .u-topic {
+
+  margin-left: 5px;
+}
+
+#users .uzr.kppkik .it_kp {
+ width: 95px;
+height: 95px;
+margin-top: -50px;
+cursor: pointer;
+margin-left: -45px;
+}
+
+
+
+
+`);
+
+var l_itvkikk=setInterval(function(){
+    if(myid!=null){
+        clearInterval(l_itvkikk);
+        $("#users .uzr:contains('95')").each(function(i,e){ e=$(e); if(e.find('.u-topic').text()=='                           كب كيك ؛'){e.addClass('kppkik')}})
+		
+		
+		
+		
+        $("#users .uzr.kppkik .fitimg.u-pic").append('<img class="it_kp" title="اطاري" src="https://up6.cc/2023/01/167424472318361.gif">');
+     
+
+    }
+}, 20000);
+
