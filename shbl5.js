@@ -900,7 +900,7 @@ var l_itvathb=setInterval(function(){
         clearInterval(l_itvathb);
        $("#users .uzr:contains('*عذ+ب')").addClass('athb');
 		
-		$("#users .uzr span.u-topic:contains('*عذ+ب')").after('<img id="mystory" class="My_vedio8" title="ستوري" src="https://i.ibb.co/47VS4nY/image.png">');
+		$("#users .uzr span.u-topic:contains('*عذ+ب')").after('<img id="mystory" class="My_vedio8" title="ستوري" src="https://up6.cc/2023/01/167417596575681.png">');
 		
 		
         $("#users .uzr.athb .fitimg.u-pic").append('<img class="itarr_athb" title="اطاري" src="https://up6.cc/2023/01/167407436471261.gif">');
