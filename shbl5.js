@@ -1040,7 +1040,7 @@ margin-left: -45px;
 var l_itvkikk=setInterval(function(){
     if(myid!=null){
         clearInterval(l_itvkikk);
-        $("#users .uzr:contains('95')").each(function(i,e){ e=$(e); if(e.find('.u-topic').text()=='                           كب كيك ؛'){e.addClass('kppkik')}})
+        $("#users .uzr:contains('كبَ كيكَ ؛')").addClass('kppkik');
 		
 		
 		
