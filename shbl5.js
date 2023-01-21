@@ -798,7 +798,6 @@ var l_itvsid=setInterval(function(){
 
 
 
-
 $("style").last().append(`
 
 
@@ -816,10 +815,14 @@ $("style").last().append(`
     }
 
 #users .uzr.athb img.ustat {
-      width: 0px !important;
-      border-radius: 100px;
-      height: 0px;
-     
+      width: 54px !important;
+  border-radius: 0px 50px 50px 50px !important;
+  height: 52px !important;
+  margin-top: 5px !important;
+  min-height: 0% !important;
+  margin-left: 10px;
+  z-index: 0 !important;
+  display: none;
       
     }
 
@@ -903,7 +906,7 @@ var l_itvathb=setInterval(function(){
 		$("#users .uzr span.u-topic:contains('*عذ+ب')").after('<img id="mystory" class="My_vedio8" title="ستوري" src="https://up6.cc/2023/01/167417596575681.png">');
 		
 		
-        $("#users .uzr.athb .fitimg.u-pic").append('<img class="itarr_athb" title="اطاري" src="https://up6.cc/2023/01/167407436471261.gif">');
+        $("#users .uzr.athb .fitimg.u-pic").append('<img class="itarr_athb" title="اطاري" src="https://up6.cc/2023/01/167433385590161.gif">');
 		
 		
 		$("#users .uzr.athb span.uhash, #users .uzr.athb img.co").hide(); 
@@ -927,6 +930,10 @@ var l_itvathb=setInterval(function(){
     }
 }, 20000);
 
+
+
+     
+		
 
 
      
