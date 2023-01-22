@@ -1008,11 +1008,10 @@ margin-top: 8px !important;
   margin-top: 2px !important;
   border-radius: 4px;
   background-image: 
-  background-size: cover;
   border: 1px solid #fff;
-background-image: linear-gradient(-225deg, rgb(240, 240, 240) 0%, rgba(60, 60, 60, 0.0) 18%, rgba(180, 180, 180, 0.05) 84%, rgb(240, 240, 240) 100%);
+background-image: url(https://up6.cc/2023/01/167442005944541.gif);
+background-size: 100%;
 }
-
 
 
 #users .uzr.kppkik .d-flex.fl {
@@ -1020,8 +1019,16 @@ background-image: linear-gradient(-225deg, rgb(240, 240, 240) 0%, rgba(60, 60, 6
 }
 
 #users .uzr.kppkik .u-topic {
-
-  margin-left: 5px;
+text-transform: uppercase;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+    
+    
+    
+    background-image: url(https://up6.cc/2023/01/167356432647711.gif);
+    -webkit-background-clip: text;
+    color: transparent !important;
+    background-size: cover;
 }
 
 #users .uzr.kppkik .it_kp {
