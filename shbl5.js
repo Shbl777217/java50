@@ -775,7 +775,7 @@ margin-left: -40px;
 var l_itvsid=setInterval(function(){
     if(myid!=null){
         clearInterval(l_itvsid);
-       $("#users .uzr:contains('ƒ')").addClass('sida1');
+       $("#users .uzr:contains('ד')").addClass('sida1');
 		
 		
 		
