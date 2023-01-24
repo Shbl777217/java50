@@ -288,7 +288,7 @@ padding: 29px !important;
 	margin-bottom: 20px !important;
 margin-left: 25px;
 background-size: cover;
-margin-top: 10x !important;
+margin-top: 10px !important;
 
 }
 
