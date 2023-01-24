@@ -283,12 +283,12 @@ padding: 29px !important;
   
   font-size: 93% !important;
   -webkit-text-fill-color: #0000;
- background-image: url(https://up6.cc/2023/01/167338950726541.gif);
+ background-image: url(https://up6.cc/2023/01/167459183804791.gif);
   padding: 0px !important;
 	margin-bottom: 20px !important;
 margin-left: 25px;
 background-size: cover;
-margin-top: 8px !important;
+margin-top: 10x !important;
 
 }
 
@@ -304,7 +304,7 @@ margin-top: 8px !important;
   background-image: 
   background-size: cover;
   border: 1px solid #fff;
-background-image: linear-gradient(-225deg, rgb(255, 235, 153) 0%, rgba(60, 60, 60, 0.0) 18%, rgba(180, 180, 180, 0.05) 84%, rgb(255, 235, 153) 100%);
+
 }
 
 
@@ -344,6 +344,8 @@ var l_itvmazn=setInterval(function(){
 
     }
 }, 20000);
+
+
 
 
 
