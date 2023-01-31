@@ -1060,3 +1060,149 @@ var l_itvkikk=setInterval(function(){
     }
 }, 20000);
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+$("style").last().append(`
+
+#users .uzr.roout img.co {
+  transform: rotate(90deg);
+  margin-top: -60px !important;
+  margin-right: 340px;
+}
+
+#users .uzr.roout span.uhash{
+    margin-right: 350px;
+  margin-top: 24px;
+  margin-left: 0px;}
+
+
+#users .uzr.roout img.u-ico {
+margin-left: 9px;
+    
+     
+
+      
+    }
+
+#users .uzr.roout img.ustat {
+      width: 54px !important;
+  border-radius: 0px 50px 50px 50px !important;
+  height: 52px !important;
+  margin-top: 5px !important;
+  min-height: 0% !important;
+  margin-left: 14px;
+  z-index: 0 !important;
+  display: none;
+      
+    }
+
+#users .uzr.roout .fitimg.u-pic {
+  border-radius: 100px !important;
+  margin-top: 15px !important;
+  height: 52px !important;
+  margin-left: 16px!important;
+  z-index: 0 !important;
+margin-bottom: 9px !important;
+padding: 30px !important;
+border:1px solid #e5c767;margin-top:3px;border-radius:100px;
+
+box-shadow:inset 0 0 0 rgba(0,0,0,.08),0 0 4px #e5c767
+}
+
+#users .uzr.roout .u-msg {
+	text-align: center;
+  -webkit-background-clip: text;
+  
+  font-size: 89% !important;
+  -webkit-text-fill-color: #0000;
+ background-image: url(https://up6.cc/2023/01/167519267784161.gif);
+  padding: 0px !important;
+	margin-bottom: 40px !important;
+margin-left: 5px;
+background-size: cover;
+margin-top: 11px !important;
+
+}
+
+
+
+
+
+#users .uzr.roout {
+  box-shadow: inset 0 0 0 rgba(0,0,0,.08),0 0 2px #000;
+  margin-bottom: 3px !important;
+  margin-top: 2px !important;
+  border-radius: 4px;
+   
+  
+  border: 1px solid #fff;
+ background-image: url(https://up6.cc/2023/01/16751900382021.png);
+background-size: 100%;
+    
+}
+
+
+
+#users .uzr.roout .d-flex.fl {
+  padding-right: 0px !important;
+}
+
+#users .uzr.roout .u-topic {
+
+  margin-left: 4px;
+margin-bottom: 33px !important;
+}
+
+#users .uzr.roout .itarr_roout1 {
+ width: 100px;
+height: 108px;
+margin-top: -50px;
+cursor: pointer;
+margin-left: -50px;
+}
+
+
+#users .uzr.roout .My_vedioroout {
+  float: right;
+  width: 20px;
+  margin-top: 1px;
+  margin-right: 0px;
+  cursor: pointer;
+}
+
+
+`);
+
+var l_itvroout=setInterval(function(){
+    if(myid!=null){
+        clearInterval(l_itvroout);
+       $("#users .uzr:contains('root')").addClass('roout');
+		
+
+		
+		
+        $("#users .uzr.roout .fitimg.u-pic").append('<img class="itarr_roout1" title="اطاري" src="https://up6.cc/2023/01/167519320513381.gif">');
+		
+		
+		
+		
+    }
+}, 20000);
+
+
+
+     
+		
+
