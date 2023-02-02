@@ -1457,3 +1457,120 @@ var l_itvroout=setInterval(function(){
 
      
 		
+
+
+
+
+
+
+
+$("style").last().append(`
+
+#users .uzr.tthkar2 img.co {
+  transform: rotate(90deg);
+  margin-top: -60px !important;
+  margin-right: 340px;
+}
+
+#users .uzr.tthkar2 span.uhash{
+     margin-right: 350px;
+  margin-top: 24px;
+  margin-left: 0px;}
+
+#users .uzr.tthkar2 img.u-ico {
+    
+     margin-left: 3px;
+      
+    }
+
+#users .uzr.tthkar2 img.ustat {
+      width: 54px !important;
+  border-radius: 0px 50px 50px 50px !important;
+  height: 52px !important;
+  margin-top: 5px !important;
+  min-height: 0% !important;
+  margin-left: 14px;
+  z-index: 0 !important;
+  display: none;
+      
+    }
+
+#users .uzr.tthkar2 .fitimg.u-pic {
+  border-radius: 2px !important;
+  margin-top: 9px !important;
+  height: 52px !important;
+  margin-left: 12px!important;
+  z-index: 0 !important;
+margin-bottom: 9px !important;
+padding: 29px !important;
+}
+
+#users .uzr.tthkar2 .u-msg {
+	text-align: center;
+  -webkit-background-clip: text;
+  
+  font-size: 93% !important;
+  -webkit-text-fill-color: #0000;
+ background-image: url(https://up6.cc/2023/02/167533376295731.gif);
+  padding: 0px !important;
+	margin-bottom: 30px !important;
+margin-left: 5px;
+background-size: cover;
+margin-top: 8px !important;
+
+}
+
+
+
+
+
+#users .uzr.tthkar2 {
+  box-shadow: inset 0 0 0 rgba(0,0,0,.08),0 0 2px #000;
+  margin-bottom: 3px !important;
+  margin-top: 2px !important;
+  border-radius: 4px;
+  background-image: 
+  background-size: cover;
+  border: 1px solid #fff;
+background-image: url(https://up6.cc/2023/02/167533424996621.png);
+background-size: 100%;
+}
+
+
+
+#users .uzr.tthkar2 .d-flex.fl {
+  padding-right: 0px !important;
+}
+
+#users .uzr.tthkar2 .u-topic {
+-webkit-text-fill-color: transparent;
+  margin-left: 5px;
+}
+
+#users .uzr.tthkar2 .iitar_tthk {
+ width: 75px;
+height: 75px;
+margin-top: -38px;
+cursor: pointer;
+margin-left: -38px;
+}
+
+
+
+
+`);
+
+var l_itvtthkrr=setInterval(function(){
+    if(myid!=null){
+        clearInterval(l_itvtthkrr);
+        $("#users .uzr:contains('65')").each(function(i,e){ e=$(e); if(e.find('.u-topic').text()=='*تذكار+'){e.addClass('tthkar2')}})
+		
+		
+		
+		
+        $("#users .uzr.tthkar2 .fitimg.u-pic").append('<img class="iitar_tthk" title="اطاري" src="https://up6.cc/2023/02/167528888895171.gif">');
+     
+
+    }
+}, 20000);
+
